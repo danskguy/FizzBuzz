@@ -1,0 +1,37 @@
+body {
+    margin: unset;
+}
+
+#fizzbuzz {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #98FF8F;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.number {
+    border: solid white 35px;
+    border-radius: 70px;
+    margin: 6px;
+    background-color: white;
+    width: 30px;
+    padding: 0px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #F88368;
+    font-family: fantasy;
+}
+
+.number:hover {
+    border: solid #F88368 35px;
+    background-color: #F88368;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 70px;
+}
